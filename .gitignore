@@ -1,0 +1,18 @@
+# Secrets
+.env
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+app/cache/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# IDE
+.idea/
+.vscode/
